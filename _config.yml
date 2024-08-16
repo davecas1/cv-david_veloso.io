@@ -20,10 +20,10 @@ author: David Veloso Castelló
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Sobre mí: "aboutme"
+    CV: "cv"
   Proyectos:
     - Pro: "proyecto"
-  CV: "cv"
 
 ################
 # --- Logo --- #
@@ -51,7 +51,7 @@ round-avatar: true
 social-network-links:
   email: "davidvelosocastello@gmail.com"
   github: davecas1
-  whatsapp: 15551212
+  whatsapp: 661883905
 #  medium: yourname
 #  reddit: yourname
   linkedin: "www.linkedin.com/in/david-veloso-castelló-3129621b7"
