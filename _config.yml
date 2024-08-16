@@ -20,7 +20,7 @@ author: David Veloso Castelló
 ###############################################
 
 navbar-links:
-  Sobre mí: "aboutme"
+  Sobre mi: "aboutme"
     CV: "cv"
   Proyectos:
     - Pro: "proyecto"
