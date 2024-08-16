@@ -36,11 +36,11 @@ Posterior al curso, empecé el  <b>máster de Ingeniería de Análisis de Datos,
 En el máster he aprendido, sobre modelos para el análisis de datos, IA, y también sobre optimización.
 En esto último unos compañeros y yo, realizamos un algoritmo para obtener la ruta más corta, andando, en bici y en transporte público para visitar todas las fallas de categoría especial de la ciudad de Valencia. Algunos periódicos se hicieron eco y lo publicaron.
 <br>
+    <br>
     <ul>
         <li><b><a href="https://elpais.com/espana/comunidad-valenciana/2024-03-18/la-ruta-perfecta-para-ver-las-fallas-mas-destacadas-en-el-menor-tiempo-posible-segun-un-algoritmo.html">El País</a></b></li>
         <li><b><a href="https://www.larazon.es/comunidad-valenciana/esta-ruta-perfecta-ver-fallas-seccion-especial-valencia_2024031665f5647e9e2a440001232c58.html)">La Razón</a></b></li>
         <li><b><a href="https://valenciaplaza.com/estudiantes-upv-trazan-ruta-perfecta-ver-fallas-especial-menor-tiempo">Valencia Plaza</a></b></li>
     </ul>
-<br>
 Actualmente mi objetivo profesional es introducir el <b>pensamiento estadístico</b> y el análisis de datos como una herramienta más. El <b>pensamiento estadístico</b> ayuda a diseminar un problema en partes más tratables y también es una forma de enfrentarse a los problemas haciendo uso de herramientas estadísticas.
 </div>
