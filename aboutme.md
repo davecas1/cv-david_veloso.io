@@ -10,7 +10,9 @@ Mi nombre es David Veloso Castelló, soy <b>graduado en Administración y Direcc
 <br>
 Soy una persona muy curiosa y apasionada por el aprendizaje continuo. Durante mi grado académico, comencé a aprender a programar, ya que considero que la programación es una herramienta fundamental. Es útil tanto para desarrollar pequeñas aplicaciones y automatizar tareas como el envío de correos electrónicos, como para realizar análisis de datos y diseñar algoritmos de optimización.
 <br>
+<br>
 Consciente de la importancia de estas habilidades, después del grado, completé un curso en el LABORA que reforzó mi conocimiento en programación. Posteriormente, realicé un máster en análisis de datos, con el objetivo de profundizar en el análisis de datos y aprender a integrar estas herramientas en mi práctica profesional. Tanto el curso como el máster se complementan perfectamente, proporcionándome un conjunto integral de herramientas para ser un mejor profesional.
+<br>
 <br>
 A partir de esta formación, definí mi objetivo profesional a largo plazo: incorporar el pensamiento estadístico en las empresas. El pensamiento estadístico implica el uso de herramientas estadísticas para abordar problemas de manera eficiente, descomponiéndolos en partes más manejables, siempre con un enfoque en la eficacia y eficiencia de los resultados. Estoy convencido de que esta metodología puede transformar la manera en que las empresas enfrentan sus desafíos, mejorando tanto sus procesos como sus resultados.
 <br>
