@@ -4,6 +4,6 @@ title: CV
 subtitle: En está página encontrará el CV y debajo del CV un botón para descargar el CV
 ---
 <div id="intro" style="text-align: justify;">
-    <iframe src="https://github.com/davecas1/davecas1.github.io/4bb76b890a1a4dd35dd553b455490891f4831fb3/CV%20DAVID%20VELOSO%20CASTELL%C3%93.pdf" width="100%" height="600px"></iframe>
+    <iframe src="<iframe src="https://davecas1.github.io/CV%20DAVID%20VELOSO%20CASTELL%C3%93.pdf" width="100%" height="600px"></iframe> width="100%" height="600px"></iframe>
     <a href="https://github.com/davecas1/davecas1.github.io/raw/4bb76b890a1a4dd35dd553b455490891f4831fb3/CV%20DAVID%20VELOSO%20CASTELL%C3%93.pdf" download>Descargar el CV</a>
 </div>
