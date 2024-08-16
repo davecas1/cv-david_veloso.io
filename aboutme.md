@@ -3,7 +3,6 @@ layout: page
 title: Sobre mi
 subtitle: Información detallada
 ---
-
 <div id="intro" style="text-align: justify;">
 Mi nombre es David Veloso Castelló, soy <b>graduado en Administración y Dirección de Empresas</b> por la Universidad Politécnica de Valencia, tengo un curso de 630h en  <b>Desarrollo de Aplicaciones mediante Tecnología Web </b>. Y el  <b>máster de Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones</b> por la Universidad Politécnica de Valencia
 <br>
@@ -23,7 +22,6 @@ Durante el grado he realizado varias prácticas en distintas empresas.
         <li><b>18/10/2021 al 17/12/2021</b> Estuve haciendo <b>prácticas en Data Processing</b>. Durante este periodo, realicé algunos scripts en Python para automatizar algunas tareas muy repetitivas. Y también un script para tratar unos datos de forma automatizada.</li>
         <li><b>03/01/2022 al 01/03/2022</b> Estuve haciendo <b>prácticas administrativo del departamento de finanzas</b>. Las tareas que realicé fueron de contabilización de facturas, punteo de saldos y contabilidad.</li>
     </ul>
-<br>
 Todo esto son las prácticas que realicé durante el grado.
 <br>
 Después del grado, estuve contratado de forma temporal en una asesoria.
@@ -33,9 +31,11 @@ Después del grado, estuve contratado de forma temporal en una asesoria.
 <br>
 Mientras estaba trabajando, me admitieron en un curso del LABORA,  <b>Desarrollo de Aplicaciones Web mediante Tecnologías Web</b>, que tuvo una duración de 630h. En el curso me enseñaron, HTML5 CSS, Javascript, PHP y el framework de PHP, Laravel. El curso tenía unas prácticas obligatorias en Empresa, durante las prácticas realicé una página web para acceder a las distintas aplicaciones web de la empresa y también mejoré la velocidad de la página base.
 <br>
+<br>
 Posterior al curso, empecé el  <b>máster de Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones</b> por la Universidad Politécnica de Valencia.
 En el máster he aprendido, sobre modelos para el análisis de datos, IA, y también sobre optimización.
 En esto último unos compañeros y yo, realizamos un algoritmo para obtener la ruta más corta, andando, en bici y en transporte público para visitar todas las fallas de categoría especial de la ciudad de Valencia.Algunos periódicos se hicieron eco y lo publicaron.
+<br>
 <br>
 Actualmente mi objetivo profesional es introducir el <b>pensamiento estadístico</b> y el análisis de datos como una herramienta más. El <b>pensamiento estadístico</b> ayuda a diseminar un problema en partes más tratables y también es una forma de enfrentarse a los problemas haciendo uso de herramientas estadísticas.
 </div>
