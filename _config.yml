@@ -22,8 +22,8 @@ author: David Veloso Castelló
 navbar-links:
   About Me: "aboutme"
   Proyectos:
-    - Pro: "https://youtube.com"
-  CV: "http://google.es"
+    - Pro: "proyecto"
+  CV: "cv"
 
 ################
 # --- Logo --- #
