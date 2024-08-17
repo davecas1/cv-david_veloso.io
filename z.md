@@ -18,7 +18,7 @@ Análisis de Imágenes con PCA
     <p>
     Se debe tener en cuenta que se aplica a los tres canales de color, ya que cada canal de color nos aportará información textural.
     </p>
-    <iframe src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/Amnou_u0%20(1).jpg" width="500" height="500" frameborder="0"></iframe>
+<img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/Amnou_u0%20(1).jpg" alt="Descripción de la imagen" width="500">
     <p>
     Se aprecia en la imagen del pez que tiene algunos tonos rojizos y otras zonas muy marcadas de azul claro y de color negro. Además, se observa que el pez no está en el fondo de la imagen y que de fondo se encuentra la cola de un pez de la misma especie.
     </p>
