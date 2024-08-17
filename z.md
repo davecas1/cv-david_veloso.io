@@ -1,5 +1,21 @@
 Análisis de Imágenes con PCA
 ================
+<div align="justify">
+    Saludos.
+    Este proyecto, trata de hacer un análisis clásico de imágenes. El análisis de imágenes se empezó a estudiar a principios de 1970 y finales de 1960. Lo que se buscaba era obtener información para a partir de las imágenes porder segmentar y clasificar. En estos años,
+    debido a que las imágenes a color eran muy caras, se desarrolló muchas técnicas para imágenes en blanco y negro. Por lo tanto, la textura tiene un gran peso, y por eso también se le llama análisis textural. <br>
+    En general este campo es muy importante para el campo médico.
+    <br>
+    <br>
+    En este caso, lo que se hará es analizar la imagen de un pez. Para observar si se puede extraer información estructural, en concreto, usaremos el Enfoque Prats-Ferrer, también llamado Enfoque Bharati-MacGregor para los tres canales de color. Este enfoque trata la
+    imagen RGB como un cubo, el cual parte de la textura de la imagen está relacionada con la frecuencia espacial, y se aplica el mismo procedimiento a los tres canales de color. 
+    <br>
+    <br>
+    Se debe tener en cuenta que se aplica a los tres canales de color, ya que cada canal de color nos aportará información textural.
+
+<img src="https://github.com/davecas1/davecas1.github.io/blob/master/pro_1_img/Amnou_u0%20(1).jpg" alt="Descripción de la imagen" width="500">
+
+Se aprecia en la imagen del pez, que tiene algunos tonos rojizos y otras zonas muy marcadas de azul claro y de color negro. Se aprecia que el pez no está en el fondo de la imagen y que de fondo se encuentra la cola de un pez de la especie.
 
     ## Importance of components:
     ##                           PC1     PC2     PC3     PC4     PC5    PC6     PC7
@@ -18,5 +34,6 @@ Análisis de Imágenes con PCA
     ## Standard deviation     0.02567 0.02551 0.01816 0.01802 0.01395 0.01125
     ## Proportion of Variance 0.00002 0.00002 0.00001 0.00001 0.00001 0.00000
     ## Cumulative Proportion  0.99994 0.99996 0.99998 0.99999 1.00000 1.00000
+</div>
 
 ![](z_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->![](z_files/figure-gfm/unnamed-chunk-1-2.png)<!-- -->
