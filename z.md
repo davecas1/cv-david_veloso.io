@@ -2,6 +2,8 @@ Análisis de Imágenes con PCA
 ================
 <div align="justify">
     Saludos.
+    <br>
+    
     Este proyecto, trata de hacer un análisis clásico de imágenes. El análisis de imágenes se empezó a estudiar a principios de 1970 y finales de 1960. Lo que se buscaba era obtener información para a partir de las imágenes porder segmentar y clasificar. En estos años,
     debido a que las imágenes a color eran muy caras, se desarrolló muchas técnicas para imágenes en blanco y negro. Por lo tanto, la textura tiene un gran peso, y por eso también se le llama análisis textural. <br>
     En general este campo es muy importante para el campo médico.
@@ -12,9 +14,11 @@ Análisis de Imágenes con PCA
     <br>
     <br>
     Se debe tener en cuenta que se aplica a los tres canales de color, ya que cada canal de color nos aportará información textural.
-
+<br>
+<br>
 <img src="https://github.com/davecas1/davecas1.github.io/blob/master/pro_1_img/Amnou_u0%20(1).jpg" alt="Descripción de la imagen" width="500">
-
+<br>
+<br>
 Se aprecia en la imagen del pez, que tiene algunos tonos rojizos y otras zonas muy marcadas de azul claro y de color negro. Se aprecia que el pez no está en el fondo de la imagen y que de fondo se encuentra la cola de un pez de la especie.
 
     ## Importance of components:
