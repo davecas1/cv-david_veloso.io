@@ -20,7 +20,7 @@ Análisis de Imágenes con PCA
     </p>
 
     <p>
-        <iframe src="https://github.com/davecas1/davecas1.github.io/raw/master/pro_1_img/Amnou_u0%20(1).jpg" width="500" height="500" frameborder="0"></iframe>
+        <iframe src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/Amnou_u0%20(1).jpg" width="500" height="500" frameborder="0"></iframe>
     </p>
 
     <p>
