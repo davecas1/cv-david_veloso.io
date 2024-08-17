@@ -20,14 +20,13 @@ Análisis de Imágenes con PCA
     </p>
 
     <p>
-        <img src="https://github.com/davecas1/davecas1.github.io/raw/master/pro_1_img/Amnou_u0%20(1).jpg" alt="Descripción de la imagen" width="500">
+        <iframe src="https://github.com/davecas1/davecas1.github.io/raw/master/pro_1_img/Amnou_u0%20(1).jpg" width="500" height="500" frameborder="0"></iframe>
     </p>
 
     <p>
     Se aprecia en la imagen del pez que tiene algunos tonos rojizos y otras zonas muy marcadas de azul claro y de color negro. Además, se observa que el pez no está en el fondo de la imagen y que de fondo se encuentra la cola de un pez de la misma especie.
     </p>
 
-    <pre>
     ## Importance of components:
     ##                           PC1     PC2     PC3     PC4     PC5    PC6     PC7
     ## Standard deviation     5.0180 0.82796 0.63035 0.59101 0.32159 0.2894 0.22965
@@ -45,5 +44,4 @@ Análisis de Imágenes con PCA
     ## Standard deviation     0.02567 0.02551 0.01816 0.01802 0.01395 0.01125
     ## Proportion of Variance 0.00002 0.00002 0.00001 0.00001 0.00001 0.00000
     ## Cumulative Proportion  0.99994 0.99996 0.99998 0.99999 1.00000 1.00000
-    </pre>
 </div>
