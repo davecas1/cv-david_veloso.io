@@ -1,7 +1,11 @@
 Análisis de Imágenes con PCA
 ================
 <div align="justify">
-    <p>Saludos.</p>
+    <p>Saludos en este artículo se detallará el proyecto que realicé sobre Análisis de Imágenes usando PCA. Con dos ejemplos, el primero es sobre un pez y la segunda sobre una palabra escrita en un folio.
+    </p>
+    <p>
+        El caso de la palabra en el folio, hay varios casos. El primero, es la palabra original "HOLA" que se usará como el ideal, luego el mismo folio escaneado a diferente resolución. Y luego habiendo tachado la palabra "HOLA" con un lápiz.
+    </p>
     
     <p>
     Este proyecto trata de hacer un análisis clásico de imágenes. El análisis de imágenes comenzó a estudiarse a principios de la década de 1970 y finales de la de 1960. Lo que se buscaba era obtener información a partir de las imágenes para poder segmentar y clasificar. En esos años, debido a que las imágenes a color eran muy costosas, se desarrollaron muchas técnicas para imágenes en blanco y negro. Por lo tanto, la textura tiene un gran peso, y por eso también se le llama análisis textural.
@@ -43,8 +47,6 @@ Análisis de Imágenes con PCA
     ## Standard deviation     0.02567 0.02551 0.01816 0.01802 0.01395 0.01125
     ## Proportion of Variance 0.00002 0.00002 0.00001 0.00001 0.00001 0.00000
     ## Cumulative Proportion  0.99994 0.99996 0.99998 0.99999 1.00000 1.00000
-<br>
-<br>
 <div align="justify">
     Una vez realizado la PCA, como se aprecia en la tabla superior. Se ha obtenido las 27 componentes que sumán una proporción acumulada de 1. Es decir, que estas 27 explican el total de la varianza. En este caso, sólo se utilizará 5. Ya que sacar más componentes no implica que haya más información. Ya que en algunos casos puede ser ruido o simplemente información que no es útil. Cogiendo 5 componentes explicamos el 0,98947 de la varianza.
     <img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/1LOADING.png" >
@@ -79,6 +81,16 @@ Es decir, de este análisis, hemos obtenido que la componente 2 y 5 explican el 
 Se puede usar para la detección de errores. También se puede usar para comprimir la información de la imagen. Tiene muchas aplicaciones este análisis.
 <br>
 <br>
-Todos los cálculos e imágenes se han hecho mediante el lenguaje de programación R.
-
+<p>
+    En la segunda parte, se hará sobre el folio. En este caso, lo que se aprecia en las imágenes superiores son las 4 imágenes. Las dos primeras imágenes corresponden a la palabra "HOLA" sin estar tachado, pero a diferente resolución. La primera tiene la máxima que es 1200x1200, mientras que la segunda está a 150x150. Y lo mismo ocurre con la palabra tachada, está a dos resoluciones. Se tomará como ideal la palabra "HOLA" a mayor resolución. Y lo que se quiere comprobar, es primero, si la resolución del escaneado dificulta la detección. Es decir, si la imagen que uso para detectar que algo es correcto o no es influido por la propia calidad de la resolución. Y el segundo caso, es si la palabra está tachada, ¿se podría identificar cuáles partes han sido añadidas después?.
+</p>
+<p>
+    Para hacer todo esto, primero se realizará el análisis que se ha hecho antes y se usará dos conceptos. La suma de cuadrados residual (SCR o RSS) y la T^2 de Hotelling. Seguimos el mismo enfoque. El de Prats-Ferrer o Bharati-MacGregor para los tres canales de color.
+</p>
+<p>
+    La T^2 de Hotelling, en el caso de la Monitorización y Control Estadístico de Procesos Multivariantes (MSPC), nos ayuda a detectar aquellos valores que se pueden catalogar como observaciones extremas, pero siguen manteniendo la estructura de correlación. En términos más estadísticos, sería aquellos valores que están alejados del centroide pero que siguen manteniendo la misma estructura de correlación. Mientrás que la suma de cuadrados residual, detecta las observaciones anómalas, siendo estás las que rompen la estructura de correlación. O lo que es lo mismo, si no rompen la estructura de correlación es que están dentro del modelo y si lo rompen significa que están fuera del modelo
+</p>
+<p>
+    El procedimiento, para realizarlo es el siguiente. Primero hay que decidir cuál es nuestro modelo "bajo control", en este caso "HOLA" a máxima resolución. Posteriormente, se guarda los valores medios y las desviaciones típicas de la imagen bajo control. Y luego se hace la proyección de las imágenes que no sabemos si contienen error. Y se normaliza utilizando los valores guardados de la imagen "bajo control". Y por último se decide un límite para la Suma de cuadrados residual y para la T2 de Hotelling, que en este caso será el 95% y se procede a calcular los dos estadísticos.
+</p>
 </div>
