@@ -82,7 +82,7 @@ Se puede usar para la detección de errores. También se puede usar para comprim
 <br>
 <br>
 <p>
-    En la segunda parte, se hará sobre el folio. En este caso, lo que se aprecia en las imágenes superiores son las 4 imágenes. Las dos primeras imágenes corresponden a la palabra "HOLA" sin estar tachado, pero a diferente resolución. La primera tiene la máxima que es 1200x1200, mientras que la segunda está a 150x150. Y lo mismo ocurre con la palabra tachada, está a dos resoluciones. Se tomará como ideal la palabra "HOLA" a mayor resolución. Y lo que se quiere comprobar, es primero, si la resolución del escaneado dificulta la detección. Es decir, si la imagen que uso para detectar que algo es correcto o no es influido por la propia calidad de la resolución. Y el segundo caso, es si la palabra está tachada, ¿se podría identificar cuáles partes han sido añadidas después?.
+    En la segunda parte, se hará sobre el folio. En este caso, lo que se aprecia en las imágenes superiores son las 2 imágenes. La primera es HOLA escrito de color amarillo y con líneas alrededor en lápiz. Y la segunda es el HOLA ha sido tachado con un bolígrafo de color ázul. Las dos imágenes han sido escaneadas con la peor calidad posible del escáner que tengo. Y lo que se quiere comprobar es si la que está palabra está tachada se puede identificar. Y si se puede identificar lo tachado.
 </p>
 <p>
     Para hacer todo esto, primero se realizará el análisis que se ha hecho antes y se usará dos conceptos. La suma de cuadrados residual (SCR o RSS) y la T^2 de Hotelling. Seguimos el mismo enfoque. El de Prats-Ferrer o Bharati-MacGregor para los tres canales de color.
@@ -92,5 +92,16 @@ Se puede usar para la detección de errores. También se puede usar para comprim
 </p>
 <p>
     El procedimiento, para realizarlo es el siguiente. Primero hay que decidir cuál es nuestro modelo "bajo control", en este caso "HOLA" a máxima resolución. Posteriormente, se guarda los valores medios y las desviaciones típicas de la imagen bajo control. Y luego se hace la proyección de las imágenes que no sabemos si contienen error. Y se normaliza utilizando los valores guardados de la imagen "bajo control". Y por último se decide un límite para la Suma de cuadrados residual y para la T2 de Hotelling, que en este caso será el 95% y se procede a calcular los dos estadísticos.
+</p>
+    <img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/T2_HOLA.jpeg" >
+<p>
+    En este caso, se omitirá el análisis anterior que se hizo con el pez. Aquí es homologo, puede ser que se pueda detectar bien por la diferencia de la textura del color o bien por una diferencia en colores. En la imagen superior vemos el T2 en 95% y 99%. Hay que recordar que esto es estadístico, es decir, se espera que hayan falsos positivos. Suponemos que la imagen de HOLA sin el tachón, es correcta. Que al hacer sobre esa imagen el 95% de la T2 o del SCR salen valores anómalos. Pero hay que recordar que es normal que salgan algunos valores simplemente de forma estadística. En cuanto al tachón vemos que en el 95%. Se aprecia que está gran parte del tachón sobre el HOLA, incluso se ve que algunos valores de los píxeles del HOLA están por encima. Pero en el 99%, se aprecia que la gran mayoría de los pixeles que tienen un valor superior al 99% son del tachón. 
+</p>
+    <img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_1_img/scr_mala.jpeg" >
+<p>
+   En cuanto al SCR en el 95% se aprecia que la mayoría de píxeles corresponden al tachón, y al 99% sólo está detectando parcialmente el tachón. Esto se podría explicar, porque al normalizar y proyectar la imagen mala con los valores normalizados de la buena, al no pertenecer al modelo original esos tachones tienen un alto residuo, porque están siendo "mal explicados" por el modelo, lo que hace que se detecte mejor el tachón.
+</p>
+<p>
+    Con este ejemplo, se ha podido poner en práctica uno de los casos para los que se usa este análisis. Detectar errores. Es decir, hemos supuesto que la primera imagen de HOLA era el modelo perfecto, el ideal y todo lo que fuese distinto estaba mal. Y a partir de eso se ha utilizado la imagen mala y se aprecia que se detecta los tachones con el T2 y con SCR. Por lo tanto, se ha comprobado que el modelo funciona para detectar en este caso el tachón. Y también, se ha comprobado la utilidad de este análisis.
 </p>
 </div>
