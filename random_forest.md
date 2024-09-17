@@ -4,13 +4,13 @@ Random Forest
     <p>Saludos en este artículo se detallará un proyecto que he hecho utilizando Random forest
     </p>   
     <p>
-    Antes de explicar el Random Forest, quería explicar que en Minería de Datos, en general se dividen los modelos en dos grandes campos uno son los "no supervisados" y los "supervisados". A grandes rasgos, el aprendizaje no supersivado, a priori el objetivo no se conoce es decir, que la información que tenemos no está previamente clasificada. Mientrás que el aprendizaje supervisado, si se conoce el objetivo buscado, y la información está previamente clasificada.
+    Antes de explicar el Random Forest, quería explicar que en Minería de Datos, en general se dividen los modelos en dos grandes campos uno son los "no supervisados" y los "supervisados". A grandes rasgos, el aprendizaje no supervisado el objetivo, a priori, no se conoce es decir, que la información que tenemos no está previamente clasificada. Mientrás que el aprendizaje supervisado, si se conoce el objetivo buscado, y la información está previamente clasificada.
     </p>
     <p>
     Algunos de los modelos usados en aprendizaje no supervisado es "PCA" y "CFA". Y en supervisados es donde se encuentra el Random Forest. Dentro del aprenizaje supervisado, hay dos grandes tipos de problemas, los problemas de discriminación/clasificación y el problema de la predicción. El random forest sirve para los dos. Se puede usar tanto para clasificar como para predecir.
     </p>
     <p>
-   . En este caso, se realizará el Random Forest para predecir.
+        En este caso, se realizará el Random Forest para predecir.
     </p>
 
     <p>
