@@ -23,7 +23,10 @@ navbar-links:
   Sobre mí: "aboutme"
   Proyectos:
     - Proyecto 1: "z";
-    - Proyecto 2: "random_forest"
+    - Proyecto 2: "";
+    - Proyecto 3: "";
+    - Proyecto 4: "";
+    - Proyecto 5: "";
 
 ################
 # --- Logo --- #
