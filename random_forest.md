@@ -46,7 +46,7 @@ Evaluación breve entre distintos modelos de Minería de Datos
     De la tabla ANOVA, se aprecia que tanto el método como en bloque son significativos. El método, son los modelos, lo que implica que si hay diferencias entre los modelos. Y luego el bloque. Observando el Mean Sq, podemos ver como el método tiene 0,04497 y el bloque 0,00237. Y los dos son superiores al residual. Que el bloque sea significativo, implica que las diferentes particiones que se han hecho en Hold-Out repetido son distintos y que son significativamente distintas entre ellas. Es esperable este resultado.
 </p>
 </div>
-<img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_2_img/pressure-3.png" alt="INTERVALOS" width="500">
+<img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro2_img/pressure-3.png" alt="INTERVALOS" width="500">
 <div align = "jutify">
     <p>
         La gráfica superior, es un intervalo LSD con el método de Bonferroni. El intervalo LSD, crea intervalos de confianza para cada nivel, por lo tanto, si dos niveles se solapan son parecidos un trozo de los dos intervalos estará en la misma zona, lo que implica que no existan diferencias estadísticamente significativas. En este caso, debido a la representación que hace R, enumera con letras y con colores. Si dos son iguales pondrá la misma letra y el mismo color. Lo que se aprecia es que ninguno es estadísticamente igual a otro. Y, se observa que el primero, el Random Forest, es el mejor modelo.
