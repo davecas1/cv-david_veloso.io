@@ -46,8 +46,15 @@ Evaluación breve entre distintos modelos de Minería de Datos
     De la tabla ANOVA, se aprecia que tanto el método como en bloque son significativos. El método, son los modelos, lo que implica que si hay diferencias entre los modelos. Y luego el bloque. Observando el Mean Sq, podemos ver como el método tiene 0,04497 y el bloque 0,00237. Y los dos son superiores al residual. Que el bloque sea significativo, implica que las diferentes particiones que se han hecho en Hold-Out repetido son distintos y que son significativamente distintas entre ellas. Es esperable este resultado.
 </p>
 </div>
+<img src="https://raw.githubusercontent.com/davecas1/davecas1.github.io/master/pro_2_img/pressure-3.png" alt="INTERVALOS" width="500">
 <div align = "jutify">
     <p>
         La gráfica superior, es un intervalo LSD con el método de Bonferroni. El intervalo LSD, crea intervalos de confianza para cada nivel, por lo tanto, si dos niveles se solapan son parecidos un trozo de los dos intervalos estará en la misma zona, lo que implica que no existan diferencias estadísticamente significativas. En este caso, debido a la representación que hace R, enumera con letras y con colores. Si dos son iguales pondrá la misma letra y el mismo color. Lo que se aprecia es que ninguno es estadísticamente igual a otro. Y, se observa que el primero, el Random Forest, es el mejor modelo.
+    </p>
+    <p>
+        Esto lo que quiere decir, es que Random Forest, en este caso, es el mejor modelo, pues proporciona los mejores valores promedios de tasa de aciertos. Esto es debido a que como hemos explicado, al realizar el experimento con los datos se ha obtenido que los modelos son estadísticamente significativos. Si no lo fuesen, significaría que todos los modelos planteados darían estadísticamente los mismos resultados y por lo tanto, daría igual que modelo seleccionasemos.
+    </p>
+    <p>
+        Igualmente cabe mencionar, que aquí sólo se ha prentidido explicar brevemente las herramientas de Minería de datos y ponerlo en un ejemplo. También se puede utilizar otras medidas como la curva ROC, En este caso al ser un modelo de clasificación se podría usar, y se podría hacer uso de distintas métricas, pero eso ya depende de la problemática del problema interesa más usar una métrica u otra. Por ello, la minería de datos no se presenta como un fin en si mismo, sino una herramienta que se puede usar en muchos campos. Y en mi humilde opinión, debemos tener siempre presente las palabras de Box, que todos los modelos son falsos pero hay algunos útiles y lo que buscamos es esa utilidad.
     </p>
 </div>
