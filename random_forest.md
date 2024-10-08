@@ -1,38 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluación breve entre distintos modelos de Minería de Datos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }
-
-        p, h1, table {
-            text-align: justify;
-            margin: auto;
-            width: 80%;
-        }
-
-        table {
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-            padding: 8px;
-        }
-
-        caption {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-
     <h1>Evaluación breve entre distintos modelos de Minería de Datos</h1>
 
     <p>Saludos en este artículo se detallará un proyecto que he hecho utilizando modelos de minería de datos.</p>
