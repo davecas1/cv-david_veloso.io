@@ -16,14 +16,15 @@ Evaluación breve entre distintos modelos de Minería de Datos
         Los modelos son: Random Forest, KNN (Vecinos más próximo), Naive Bayes y SVM (Support Vector Machine). Para analizarlo se ha hecho un Hold-out repetido 100 veces. 75% serán los datos de entrenamiento y el 25% de validación. Esto se hace así para poder evaluar de mejor manera como funciona los distintos modelos. Ya que por ejemplo, Random Forest, tiende al sobreajuste. Existen otras técnicas de partición de datos y de evaluación de datos, como por ejemplo, Hold-Out estratificado, el cuál las clases mantienen la misma proporción o validación cruzada que los datos se dividen en k subconjuntos. En este artículo se hará uso del Hold-Out repetido.
     </p>
 </div>
-
+<div>
+    
 ##       tasa.aciertos.rf tasa.aciertos.svm tasa.aciertos.knn tasa.aciertos.nbayes
 ## 2.5%         0.7028646         0.6847656         0.6507813            0.6979167
 ## 97.5%        0.8125000         0.8048177         0.7686198            0.8152344
-<br>
 
 ##     tasa.aciertos.rf    tasa.aciertos.svm    tasa.aciertos.knn tasa.aciertos.nbayes
 ##            0.7626042            0.7443750            0.7140625      0.7543229
+</div>
 
 
 <div align = "justify">
