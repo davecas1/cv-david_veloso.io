@@ -34,7 +34,6 @@ Comparación de modelos
     ## bloque       99 0.2346 0.00237   6.068 <2e-16 ***
     ## Residuals   297 0.1160 0.00039 
 
-<div align= "justify>
 
 De la tabla ANOVA, se aprecia que tanto el método como en bloque son significativos. El método, son los modelos, lo que implica que si hay diferencias entre los modelos. Y luego el bloque. Observando el Mean Sq, podemos ver como el método tiene 0,04497 y el bloque 0,00237. Y los dos son superiores al residual. Que el bloque sea significativo, implica que las diferentes particiones que se han hecho en Hold-Out repetido son distintos y que son significativamente distintas entre ellas. Es esperable este resultado.
 <br>
@@ -46,4 +45,3 @@ Esto lo que quiere decir, es que Random Forest, en este caso, es el mejor modelo
 <br>
 <br>
 Igualmente cabe mencionar, que aquí sólo se ha prentidido explicar brevemente las herramientas de Minería de datos y ponerlo en un ejemplo. También se puede utilizar otras medidas como la curva ROC, En este caso al ser un modelo de clasificación se podría usar, y se podría hacer uso de distintas métricas, pero eso ya depende de la problemática del problema interesa más usar una métrica u otra. Por ello, la minería de datos no se presenta como un fin en si mismo, sino una herramienta que se puede usar en muchos campos. Y en mi humilde opinión, debemos tener siempre presente las palabras de Box, que todos los modelos son falsos pero hay algunos útiles y lo que buscamos es esa utilidad.
-</div>
